@@ -68,6 +68,6 @@ INSERT INTO `peace`.`strana` (`id_strana`, `name_strana`) VALUES ('3', 'Кита
 INSERT INTO `peace`.`world` (`id`, `id_strana`, `id_oblast`, `id_raion`, `id_gorod`) VALUES ('3', '3', '3', '3', '3');
 
 
---select `world`.`id`, `strana`.`name_strana`, `oblast`.`name_oblast`, `raion`.`name_raion`, `gorod`.`name_gorod`, `gorod`.`chislenost`, `gorod`.`ploshad` AS `ploshad` from `world` inner join `strana` on `world`.`id_strana` = `strana`.`id_strana` inner join `oblast` on `world`.`id_oblast` = `oblast`.`id_oblast` inner join `raion` on `world`.`id_raion` = `raion`.`id_raion` inner join `gorod` on `world`.`id_gorod` = `gorod`.`id_gorod`;
+select `world`.`id`, `strana`.`name_strana`, `oblast`.`name_oblast`, `raion`.`name_raion`, `gorod`.`name_gorod`, `gorod`.`chislenost`, `gorod`.`ploshad` AS `ploshad` from `world` inner join `strana` on `world`.`id_strana` = `strana`.`id_strana` inner join `oblast` on `world`.`id_oblast` = `oblast`.`id_oblast` inner join `raion` on `world`.`id_raion` = `raion`.`id_raion` inner join `gorod` on `world`.`id_gorod` = `gorod`.`id_gorod`;
 
 
